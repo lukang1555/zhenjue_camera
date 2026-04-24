@@ -1,0 +1,1 @@
+rclcpp;ament_index_cpp;std_msgs;nlohmann-json3-dev;yaml-cpp;libcurl4-openssl-dev;gstreamer1.0-dev;gstreamer1.0-plugins-base;gstreamer1.0-libav;ament_lint_auto;ament_lint_common

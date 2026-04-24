@@ -1,0 +1,13 @@
+{
+  "name": "crane-ws-sdk-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Node.js ws server for Crane WebSocket SDK demo",
+  "main": "demo_server.js",
+  "scripts": {
+    "demo:server": "node demo_server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
