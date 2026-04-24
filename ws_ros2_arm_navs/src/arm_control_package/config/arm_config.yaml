@@ -1,0 +1,17 @@
+robot_id: "RB001"
+can_server:
+  receive_topic: "/from_can_bus"
+  transmit_topic: "/to_can_bus"
+  qos_depth: 1
+  default_node_id: 0
+api_server:
+  bind_address: "0.0.0.0"
+  port: 9002
+  identity: "ROBOT-CTRL-0001"
+  max_message_bytes: 262144
+  duplicate_ttl_ms: 60000
+  high_priority_worker_threads: 2
+  normal_priority_worker_threads: 4
+client_whitelist:
+    - "IPAD-0001"
+    - "IPAD-0002"

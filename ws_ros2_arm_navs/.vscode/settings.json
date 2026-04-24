@@ -1,0 +1,19 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/ws_ros2_arm_navs/install/hesai_ros_driver/local/lib/python3.10/dist-packages",
+        "/home/ws_ros2_arm_navs/install/arm_ros_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/tritonserver/backends/dali/wheel/dali",
+        ""
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ws_ros2_arm_navs/install/hesai_ros_driver/local/lib/python3.10/dist-packages",
+        "/home/ws_ros2_arm_navs/install/arm_ros_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/tritonserver/backends/dali/wheel/dali",
+        ""
+    ]
+}

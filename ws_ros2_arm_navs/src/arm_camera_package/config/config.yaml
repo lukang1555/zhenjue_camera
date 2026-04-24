@@ -1,0 +1,29 @@
+devices:
+  - device_id: 1
+    device_name: "front_gate"
+    stream_uri: "rtsp://admin:zhenjue888@10.0.0.248:554/Streaming/Channels/101"
+    http_base_url: "http://10.0.0.248"
+    username: "admin"
+    password: "zhenjue888"
+    stream_protocol: "rtsp"
+    prefer_deepstream_decoder: true
+    connection_timeout_ms: 8000
+    publish_topic: "/hk/camera_1"
+    control_topic: "/hk/cmd/camera_1"
+vision_parameters:
+  marker_size_m: 0.1
+  camera_matrix: [1000.0, 0.0, 640.0, 0.0, 1000.0, 360.0, 0.0, 0.0, 1.0]
+  dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+  t_cam2gripper: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+  # - device_id: 2
+  #   device_name: "rear_gate"
+  #   stream_uri: "rtsp://admin:123456@192.168.1.65:554/Streaming/Channels/101"
+  #   http_base_url: "http://192.168.1.65"
+  #   username: "admin"
+  #   password: "123456"
+  #   stream_protocol: "rtsp"
+  #   prefer_deepstream_decoder: true
+  #   connection_timeout_ms: 8000
+  #   publish_topic: "/topic/camera/2"
+  #   control_topic: "/topic/camera/cmd"

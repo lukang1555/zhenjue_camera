@@ -1,0 +1,50 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/src/**/include",
+                "${workspaceFolder}/src/arm_common_package/include/**",
+                "${workspaceFolder}/src/arm_control_package/include/**",
+                "${workspaceFolder}/src/arm_control_package/include/arm_control_package/services/**",
+                "${workspaceFolder}/src/arm_control_package/src/services/**",
+                "${workspaceFolder}/build/**",
+                "${workspaceFolder}/install/**/include",
+                "/opt/ros/humble/include/**",
+                "/opt/ros/humble/include/can_msgs/**",
+                "/usr/local/include/**",
+                "/usr/include/**",
+                "/usr/include/gstreamer-1.0",
+                "/usr/include/glib-2.0",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/usr/include/opencv4"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/src/arm_common_package/include",
+                    "${workspaceFolder}/src/arm_control_package/include",
+                    "${workspaceFolder}/src/arm_control_package/src/services",
+                    "${workspaceFolder}/build",
+                    "${workspaceFolder}/install",
+                    "/opt/ros/humble/include",
+                    "/usr/local/include",
+                    "/usr/include",
+                    "/usr/include/gstreamer-1.0",
+                    "/usr/include/glib-2.0",
+                    "/usr/include/opencv4"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "defines": [
+                "__linux__"
+            ]
+        }
+    ]
+}
